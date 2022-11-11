@@ -43,7 +43,9 @@ fun GmailApp() {
         topBar = { HomeAppBar(scaffoldState, coroutineScope) },
         drawerContent = {
             GmailDrawerMenu(scrollState)
-        }) {
+        },
+        bottomBar = {}
+    ) {
 
     }
 }

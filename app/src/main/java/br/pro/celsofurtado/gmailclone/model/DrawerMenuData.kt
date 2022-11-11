@@ -1,4 +1,4 @@
-package br.pro.celsofurtado.gmailclone
+package br.pro.celsofurtado.gmailclone.model
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.*
