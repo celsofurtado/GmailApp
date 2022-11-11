@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'br.pro.celsofurtado.gmailclone'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "br.pro.celsofurtado.gmailclone"
