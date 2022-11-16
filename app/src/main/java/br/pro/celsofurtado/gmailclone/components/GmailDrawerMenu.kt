@@ -60,7 +60,6 @@ fun GmailDrawerMenu(scrollState: ScrollState) {
                     Divider(
                         modifier = Modifier
                             .padding(bottom = 20.dp, top = 20.dp)
-                            .border(20.dp, Color.Gray, RectangleShape)
                     )
                 }
                 item.isHeader -> {

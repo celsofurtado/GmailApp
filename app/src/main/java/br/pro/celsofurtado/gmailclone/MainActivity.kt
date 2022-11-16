@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import br.pro.celsofurtado.gmailclone.components.GmailDrawerMenu
 import br.pro.celsofurtado.gmailclone.components.HomeAppBar
+import br.pro.celsofurtado.gmailclone.components.HomeBottomMenu
 import br.pro.celsofurtado.gmailclone.ui.theme.GmailCloneTheme
 
 class MainActivity : ComponentActivity() {
@@ -44,7 +45,7 @@ fun GmailApp() {
         drawerContent = {
             GmailDrawerMenu(scrollState)
         },
-        bottomBar = {}
+        bottomBar = { HomeBottomMenu() }
     ) {
 
     }
